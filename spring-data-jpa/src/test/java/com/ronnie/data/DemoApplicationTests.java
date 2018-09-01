@@ -1,14 +1,13 @@
 package com.ronnie.data;
 
-import com.ronnie.data.dao.ExEntrustDao;
-import com.ronnie.data.dao.MemberDao;
+import com.ronnie.data.repository.ExEntrustDao;
+import com.ronnie.data.repository.MemberDao;
 import com.ronnie.data.entity.Member;
 import com.ronnie.data.model.ExEntrust;
 import com.ronnie.data.service.ExEntrustService;
 import com.ronnie.data.utils.NativeSql;
 import com.ronnie.data.utils.NativeSqlBuilder;
 import lombok.extern.slf4j.Slf4j;
-import org.hibernate.SQLQuery;
 import org.hibernate.query.NativeQuery;
 import org.hibernate.transform.Transformers;
 import org.junit.Test;
@@ -21,7 +20,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import java.util.List;
-import java.util.Map;
 
 @Slf4j
 @RunWith(SpringRunner.class)

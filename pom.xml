@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-data-jpa</module>
+        <module>spring-data-mongodb</module>
     </modules>
 
     <parent>

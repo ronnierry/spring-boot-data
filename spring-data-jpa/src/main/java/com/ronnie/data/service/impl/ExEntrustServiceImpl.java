@@ -1,7 +1,7 @@
 package com.ronnie.data.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
-import com.ronnie.data.dao.ExEntrustDao;
+import com.ronnie.data.repository.ExEntrustDao;
 import com.ronnie.data.model.ExEntrust;
 import com.ronnie.data.service.ExEntrustService;
 import com.ronnie.data.utils.NativeSql;
