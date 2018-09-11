@@ -11,6 +11,7 @@
     <modules>
         <module>spring-data-jpa</module>
         <module>spring-data-mongodb</module>
+        <module>spring-data-redis</module>
     </modules>
 
     <parent>
