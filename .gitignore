@@ -1,3 +1,4 @@
 spring-data-jpa/target/
 spring-data-mongodb/target/
 spring-data-redis/target/
+rest-data/target/
